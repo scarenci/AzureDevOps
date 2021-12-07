@@ -4,6 +4,11 @@
   <artifactId>devops</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  <properties>
+  	<project.build.sourceEnconding>UTF-8</project.build.sourceEnconding>
+  	<maven.compliler.source>1.8</maven.compliler.source>
+  	<maven.compliler.target>1.8</maven.compliler.target>
+  </properties>
   
   <dependencies>
 	<dependency>
@@ -13,5 +18,6 @@
 	    <scope>test</scope>
 	</dependency>
   </dependencies>
+  
   
 </project>
